@@ -34,7 +34,7 @@
     "eject": "react-scripts eject"
   },
   "simple-git-hooks": {
-    "pre-commit": "pretty-quick --staged"
+    "pre-commit": "npx pretty-quick --staged"
   },
   "browserslist": {
     "production": [
