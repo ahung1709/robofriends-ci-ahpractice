@@ -15,7 +15,6 @@
     "gh-pages": "^6.0.0",
     "husky": "^9.1.1",
     "nock": "^13.3.3",
-    "pretty-quick": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
@@ -35,6 +34,9 @@
     "eject": "react-scripts eject",
     "precommit": "pretty-quick --staged"
   },
+  "simple-git-hooks": {
+    "pre-commit": "pretty-quick --staged"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -49,6 +51,8 @@
   },
   "devDependencies": {
     "@cfaester/enzyme-adapter-react-18": "^0.7.1",
-    "prettier": "3.3.3"
+    "prettier": "^3.3.3",
+    "pretty-quick": "^4.0.0",
+    "simple-git-hooks": "^2.11.1"
   }
 }
