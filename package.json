@@ -13,6 +13,7 @@
     "enzyme-to-json": "^3.6.2",
     "fetch-mock": "^9.11.0",
     "gh-pages": "^6.0.0",
+    "husky": "^9.1.1",
     "nock": "^13.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -32,6 +33,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "simple-git-hooks": {
+    "precommit": "npx pretty-quick --staged"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,6 +49,9 @@
     ]
   },
   "devDependencies": {
-    "@cfaester/enzyme-adapter-react-18": "^0.7.1"
+    "@cfaester/enzyme-adapter-react-18": "^0.7.1",
+    "prettier": "^3.3.3",
+    "pretty-quick": "^4.0.0",
+    "simple-git-hooks": "^2.11.1"
   }
 }
